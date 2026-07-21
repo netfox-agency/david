@@ -112,6 +112,18 @@
     }
   }
 
+  /* ---------- Nav : pilule claire une fois sorti du hero ---------- */
+  var hero = document.querySelector('.hero');
+  if (hero) {
+    var navPaint = function () {
+      document.body.classList.toggle('nav-light', window.scrollY > hero.offsetHeight * 0.72);
+    };
+    window.addEventListener('scroll', navPaint, { passive: true });
+    navPaint();
+  } else {
+    document.body.classList.add('nav-light');
+  }
+
   /* ---------- Année ---------- */
   var year = document.getElementById('year');
   if (year) year.textContent = String(new Date().getFullYear());
