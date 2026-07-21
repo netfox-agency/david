@@ -3,10 +3,12 @@
 Second site du client ESPADE david Couverture 09 (rc-couverture-09.fr, maquette Ariège dans
 `rc-couverture-refonte/`), ciblant cette fois **Lannemezan et les Hautes-Pyrénées (65)**.
 
-Design distinct de la maquette Ariège : registre cinématique sombre (noir chaud, crème,
-terracotta discret), hero vidéo pleine hauteur avec grain film, nav pilule liquid-glass,
-marquee de prestations, révélation de texte au scroll, footer avec mot géant. Statique pur
-HTML/CSS/JS, sans build ni dépendance.
+Design v2, registre artisan premium adapté au métier : fond papier crème, encre chaude, terre
+cuite en accent, hero vidéo sombre pleine hauteur avec grain film, bande de réassurance
+(décennale, urgence 24/7, devis gratuit, artisan), section « pourquoi » en charbon, bande
+urgence terre cuite avec téléphone, nav pilule glass qui passe en clair au scroll, révélation
+de texte au scroll, footer charbon avec mot géant. Statique pur HTML/CSS/JS, sans build ni
+dépendance.
 
 ## Structure
 
