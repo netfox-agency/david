@@ -525,6 +525,26 @@ a.ci-item:hover{transform:translateY(-2px);box-shadow:var(--shadow-card-hover),i
 .form-error{background:var(--accent-soft);box-shadow:inset 0 0 0 1px rgba(184,80,46,.3);color:var(--accent-deep)}
 .form-error a{color:var(--accent-deep);font-weight:700}
 
+/* ---------- Pages prestations / communes ---------- */
+.page-head{padding:150px 0 10px}
+.crumbs{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:13px;color:var(--ink-40);margin-bottom:18px}
+.crumbs a{color:var(--ink-60);transition:color .25s}
+.crumbs a:hover{color:var(--ink)}
+.page-head h1{font-size:clamp(30px,4.4vw,50px);line-height:1.06}
+.lead-answer{margin-top:20px;font-size:16.5px;line-height:1.65;color:var(--ink-80);max-width:70ch}
+.article{padding:14px 0 70px}
+.article h2{font-size:clamp(21px,2.5vw,28px);margin:36px 0 12px;letter-spacing:-.02em}
+.article p{color:var(--ink-60);margin-bottom:13px;max-width:70ch}
+.article ul{margin:0 0 13px 20px;color:var(--ink-60);max-width:68ch}
+.article li{margin-bottom:6px}
+.article a{font-weight:600;color:var(--accent-deep);text-decoration:underline;text-underline-offset:3px}
+.page-cta{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0 6px}
+.related{margin-top:36px;padding-top:24px;border-top:1px solid var(--line-soft)}
+.related p{font-weight:700;color:var(--ink);margin-bottom:10px}
+.related ul{list-style:none;margin:0;display:flex;flex-direction:column;gap:8px}
+.page-faq{margin-top:36px}
+.page-faq h2{margin-bottom:16px}
+
 /* ---------- Footer ---------- */
 .footer{background:var(--coal);color:var(--cream);padding:80px 0 110px;position:relative;overflow:hidden}
 .footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1.3fr;gap:40px}
