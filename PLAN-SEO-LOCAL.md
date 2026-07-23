@@ -1,94 +1,95 @@
-# Plan de lancement SEO local · ESPADE david Couverture · Lannemezan (65)
+# Plan SEO local · ESPADE david Couverture · Lannemezan (65)
 
-Contexte : domaine neuf + nouvelle fiche Google Business Profile. Sur un lancement à froid,
-le classement dans le pack local dépend d'abord de la fiche GBP (32 % du poids, Whitespark 2026)
-et des avis (~20 %, en hausse), puis du on-page. Le site est déjà optimisé côté code
-(voir « Fait dans le code » en bas). Ce plan liste ce qui se joue EN DEHORS du code,
-dans l'ordre d'impact.
+## Le contexte réel (mis à jour)
 
-## Semaine 0 · La fiche Google (le facteur n° 1)
+L'entreprise a déjà une fiche Google Business Profile et un site (rc-couverture-09.fr) sur le
+secteur de Saint-Girons, avec son adresse de vérification en Ariège. Ce site Lannemezan est un
+second site, sur un domaine neuf, pour développer le 65.
 
-1. **Créer la fiche GBP** avec le nom exact **« ESPADE david Couverture »** (identique au site
-   et au schema : la cohérence nom/téléphone/zones entre fiche et site est un signal direct).
-2. **Catégorie principale : « Couvreur »** — la mauvaise catégorie principale est le pire
-   facteur négatif mesuré (score 176). Catégories secondaires : Charpentier, Entreprise de
-   nettoyage de toitures (si proposées).
-3. Téléphone : **06 73 30 30 82** (le même que le site, partout, à l'identique).
-4. Zone desservie (SAB) : Lannemezan, Capvern, La Barthe-de-Neste, Saint-Laurent-de-Neste,
-   Montréjeau, Bagnères-de-Bigorre, Tarbes. Note : le classement reste basé sur l'adresse de
-   vérification, pas la zone déclarée (Sterling Sky 2025) — si une adresse ou un dépôt dans
-   le 65 est possible un jour, c'est LE levier de proximité (55 % de la variance du
-   classement local, Search Atlas 2025).
-5. Renseigner les **services un par un** (les 8 prestations du site, mêmes intitulés),
-   la description (reprendre celle du site), les horaires 24/7, et **10 à 15 photos réelles
-   de chantiers** (des photos = +45 % de demandes d'itinéraire ; inutile d'en mettre 50).
-6. Vérifier la fiche immédiatement (fiche vérifiée = facteur top 5).
+### Ce que disent les règles Google sur une deuxième fiche
 
-## Semaines 1 à 4 · Les avis (le facteur n° 2)
+Une entreprise sans vitrine (SAB, service area business) a droit à UNE fiche par établissement
+physique réel, doté de personnel et signalé. Créer une deuxième fiche SAB sans adresse réelle
+dans le 65 (adresse d'ami, boîte postale, domiciliation) est le meilleur moyen de faire
+suspendre LES DEUX fiches : les profils dupliqués sont le 2e pire facteur négatif mesuré
+(Whitespark 2026) et Google purge massivement (240 M+ d'avis et fiches spam traités en 2024).
+**Donc : pas de nouvelle fiche tant qu'il n'y a pas de local réel à Lannemezan. Jamais de
+fausse adresse.**
 
-- Objectif : **10 avis Google natifs** au plus vite — le « seuil magique » mesuré : passer
-  de 9 à 10 avis produit un saut de classement net (Sterling Sky).
-- Ensuite, viser la **régularité : au moins 1 avis toutes les 2-3 semaines**. Sans avis
-  frais pendant 3 semaines, le classement décroche (« règle des 18 jours »). 74 % des
-  consommateurs ne regardent que les avis de moins de 3 mois.
-- Méthode : demander l'avis à chaque fin de chantier, par SMS avec le lien court de la fiche.
-  **Jamais de tri des clients ni d'avis achetés** (interdit Google, purges massives en cours).
-- Répondre à chaque avis (signal d'engagement + matière sémantique : les mots-clés présents
-  dans les avis comptent pour ~5 % de la variance).
+### La conséquence à assumer
 
-## Semaine 1 · Indexation express du domaine neuf
+Le pack local (la carte + 3 résultats) de Lannemezan est quasi inaccessible : la proximité de
+l'adresse de vérification explique 55 % du classement local (Search Atlas 2025) et la fiche est
+à ~50 km. La performance du site 65 se joue donc sur 4 autres canaux, tous réels :
 
-1. **Google Search Console** : ajouter la propriété, soumettre `sitemap.xml`, demander
-   l'indexation de la page d'accueil manuellement.
-2. **Bing Webmaster Tools** : importer depuis GSC, soumettre le sitemap, activer **IndexNow**.
-   Bing alimente ChatGPT, Copilot et Alexa — pour un domaine neuf c'est l'index le plus
-   rapide à pénétrer et le canal IA le plus direct.
-3. Brancher le domaine définitif partout dans le code (voir README : canonical, og, schema,
-   robots, sitemap, llms.txt contiennent l'hypothèse `rc-couverture-65.fr` à confirmer).
+## Canal 1 · L'organique classique (ce que le site vient de construire)
 
-## Semaines 1 à 6 · Citations NAP (nom, téléphone identiques partout)
+Sous le pack local, les résultats classiques restent : et sur « couvreur lannemezan », la
+concurrence organique est faible (petits sites artisans, annuaires). C'est LE terrain gagnable.
 
-Tier 1, dans l'ordre : **Apple Business Connect** (27 % d'usage et en forte hausse),
-**Bing Places**, **Facebook** (page pro), **PagesJaunes**, **Yelp**. Ces citations sont
-aussi 3 des 5 premiers facteurs de visibilité dans les réponses IA (Whitespark 2026) :
-ChatGPT s'appuie sur Bing/Yelp, Siri sur Apple/Yelp, Alexa sur Bing.
-Toujours : « ESPADE david Couverture » + 06 73 30 30 82 + mêmes zones. Aucune variante.
+- Fait : 8 pages services 800+ mots, 3 pages communes, schema complet, maillage, llms.txt.
+- À faire au lancement : Search Console + soumission sitemap + demande d'indexation manuelle.
+- La mise à jour « Diversity » (2025) rend difficile de cumuler pack ET organique : les
+  concurrents qui trustent le pack laissent d'autant plus de place en organique.
+- Point de vigilance deux-sites : ne JAMAIS copier de contenu entre le site 09 et le site 65
+  (actuellement 100 % distincts : design, textes, téléphone). Un lien simple entre les deux
+  sites est acceptable (« Notre agence en Ariège »), pas de maillage massif à ancres optimisées.
 
-## En continu · Signaux de comportement et fraîcheur
+## Canal 2 · La recherche IA (le canal qui n'a PAS besoin de fiche Google)
 
-- Le site est le support de conversion : les **appels et demandes d'itinéraire depuis la
-  fiche** sont des signaux de classement montants. Le bouton d'appel omniprésent du site
-  y contribue directement.
-- **Rafraîchir la page tous les 2-3 mois** (une phrase, une photo de chantier, la date du
-  sitemap) : un contenu de moins de 3 mois est ~3× plus cité par les IA ; au-delà de
-  6 mois sans mise à jour, l'éligibilité aux citations IA chute (SE Ranking).
-- Publier 1 post GBP par mois (pas d'effet classement direct, mais des justifications
-  d'annonce dans le pack).
-- Dès que possible : une vidéo YouTube courte de chantier mentionnant « ESPADE david
-  Couverture Lannemezan » — les mentions YouTube sont le signal le plus corrélé aux
-  citations IA (0,737, Ahrefs 2025).
+C'est l'angle le plus intéressant du dossier : **ChatGPT n'accède pas à Google Business
+Profile**. Ses sources locales sont l'index Bing, Yelp, les annuaires et Reddit. Perplexity
+privilégie les sites d'autorité. 45 % des consommateurs utilisent déjà l'IA pour des
+recommandations locales (BrightLocal 2026) et le taux de conversion mesuré y est ~9× supérieur
+au clic organique (Seer Interactive). Un domaine neuf peut y percer sans aucune fiche :
 
-## Fait dans le code (ce commit)
+1. **Bing Webmaster Tools + IndexNow dès le jour 1** : l'index Bing alimente ChatGPT, Copilot
+   et Alexa. C'est la porte d'entrée IA du site 65.
+2. **Inscriptions annuaires avec le 06 73 30 30 82 et la zone Lannemezan** : PagesJaunes,
+   Yelp, Facebook. Ces citations sont 3 des 5 premiers facteurs de visibilité IA (Whitespark).
+3. Le site est déjà prêt côté contenu : llms.txt, blocs citables, crawlers IA autorisés.
+4. Test de contrôle à 6 semaines : demander à ChatGPT et Perplexity « couvreur à Lannemezan ».
 
-- Schema RoofingContractor enrichi : `name` aligné sur la future fiche (« ESPADE david
-  Couverture »), `legalName` conservé, `openingHoursSpecification` 24/7 structuré,
-  `areaServed` avec liens Wikipedia des 7 communes + département (désambiguïsation
-  d'entités pour Google et les IA).
-- Schema WebSite (fr-FR) relié au business ; FAQPage conservé (plus de rich result Google
-  depuis mai 2026, mais utile aux citations IA).
-- `llms.txt` : fiche d'identité complète pour les crawlers IA (NAP, prestations, zones, garanties).
-- `robots.txt` : accès explicite GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, PerplexityBot + sitemap.
-- Meta `geo.region` FR-65 / `geo.placename` Lannemezan.
-- Déjà en place : title/meta description localisés, H1 « Votre couvreur à Lannemezan »,
-  contenu 100 % serveur (zéro JS requis pour lire la page, les crawlers IA n'exécutent pas
-  le JS), LCP optimisé (poster préchargé, vidéo 2,8 Mo, images lazy).
+## Canal 3 · La fiche EXISTANTE, optimisée pour le 65 (sans tricher)
 
-## Comment savoir si ça marche (indicateurs avant les positions)
+La fiche de Saint-Girons ne rankera pas dans le pack de Lannemezan, mais elle peut capter une
+partie des recherches et renforcer l'entité :
 
-- GSC : la home passe « indexée » sous 1 semaine, premières impressions sur « couvreur
-  lannemezan » sous 3-4 semaines.
-- GBP : appels + itinéraires dans les stats de la fiche dès les premiers avis.
-- Recherche du nom exact « ESPADE david Couverture » : la fiche et le site doivent
-  apparaître ensemble (sinon, problème de cohérence NAP).
-- Test IA : demander à ChatGPT/Perplexity « couvreur à Lannemezan » après 4-6 semaines ;
-  la présence Bing/Yelp est le prérequis.
+- **Ajouter Lannemezan, Capvern, La Barthe-de-Neste, Montréjeau aux zones desservies** de la
+  fiche (paramètre prévu pour ça, sans effet pack mais honnête et cohérent).
+- **Avis mentionnant Lannemezan** : la pertinence sémantique des avis pèse ~5 % du classement.
+  Chaque chantier fait dans le 65 = demander un avis qui cite la commune (« intervention à
+  Capvern », « toiture à Lannemezan »). C'est le levier fiche le plus efficace disponible.
+- Posts GBP mensuels montrant des chantiers du 65 (photos datées, commune citée).
+- Le site lié à la fiche reste rc-couverture-09.fr : ne pas le changer, une fiche = un site.
+
+## Canal 4 · Le pont payant pendant que l'organique monte (performance immédiate)
+
+Un domaine neuf met des semaines à s'installer. Si le client veut des appels dès le premier
+mois, le canal honnête est **Google Ads en ciblage rayon Lannemezan** vers le site 65 :
+campagne recherche « couvreur / fuite toiture / démoussage + Lannemezan », extensions d'appel
+avec le 06 73 30 30 82. Le site est déjà une landing de conversion (appel omniprésent,
+formulaire, urgence 24/24). Les stats du pack local montrent d'ailleurs que les annonces y
+prennent une place croissante (22 % des mots-clés mobiles suivis, Sterling Sky).
+
+## Le déblocage ultime (à garder en tête avec le client)
+
+Si un jour l'activité 65 justifie un **local réel à Lannemezan** (dépôt, atelier, bureau avec
+personnel et enseigne), alors une deuxième fiche devient légitime : catégorie « Couvreur »,
+nom « ESPADE david Couverture », le 06 73 30 30 82, le site 65 en lien, et le pack local de
+Lannemezan devient jouable. C'est le seul chemin vers le pack, et c'est un argument business
+à présenter tel quel au client.
+
+## Mesure de la performance (pour le vendeur du site)
+
+- Le 06 73 30 30 82 n'existe que sur le site 65 : chaque appel = le site. C'est le KPI.
+- Search Console : impressions/clics sur les requêtes « lannemezan » et communes.
+- Formulaire Web3Forms : leads horodatés.
+- Test IA mensuel (ChatGPT/Perplexity) et recherche du nom exact.
+
+## Fait dans le code (récapitulatif)
+
+Schema RoofingContractor enrichi (name aligné, legalName, areaServed + Wikipedia, horaires
+24/7), WebSite fr-FR, 11 pages dédiées (8 services 800+ mots, 3 communes), blocs citables,
+maillage complet, llms.txt, robots.txt crawlers IA, meta geo, sitemap 12 URLs, contenu 100 %
+lisible sans JavaScript, LCP optimisé.
