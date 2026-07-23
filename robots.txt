@@ -1,4 +1,20 @@
 User-agent: *
 Allow: /
 
+# Crawlers de recherche IA : accès explicite (visibilité ChatGPT, Claude, Perplexity)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
 Sitemap: https://www.rc-couverture-65.fr/sitemap.xml
